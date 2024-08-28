@@ -1,0 +1,27 @@
+csm-version: '1.0'
+components:
+- uid: bsc.evhandlclient
+  name: bsc.evhandlclient
+  description: BSC_EVHANDLCLIENT component
+  availability-manager: NONE
+  software:
+    sdp: BSC_EVHANDLCLIENT-CXC1462066
+  supersedes:
+  - software: BSC_EVHANDLCLIENT
+  constraints:
+    installation:
+      after:
+      - component: acs.lct.lib
+        method: DIFFERENT-STEP
+    upgrade:
+      after:
+      - component: acs.lct.lib
+        method: DIFFERENT-STEP
+  meta-data:
+    component-version: 1.1.2-1
+    deliverable:
+      deployment-package: bsc_evhandlclient-1.1.2-1-deployment-CXC1462066.tar.gz
+      runtime-package: bsc_evhandlclient-1.1.2-1-runtime-CXC1462066.tar.gz
+    software:
+    - file-name: BSC_EVHANDLCLIENT-CXC1462066-R2C01.x86_64.sdp
+      bundle-name: ERIC-BSC_EVHANDLCLIENT-CXC1462066-R2C01

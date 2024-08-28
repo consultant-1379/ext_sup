@@ -1,0 +1,39 @@
+# Compiled source #
+###################
+*.obj
+*.gcno
+*.o
+
+# Packages #
+############
+*.rpm
+*.sdp
+*.tar.gz
+*.tar.gz.md5*
+*.tgz
+*.bin
+*.exe
+*.tar
+*.zip
+*.jar
+
+# Windows Specific #
+####################
+*.ccscc
+*.dsp
+*.dsw
+*.vcproj
+*.sln
+*.pdb
+*.vspscc
+*.suo
+*.vsscc
+*.vssscc
+
+# list application binaries
+# /BSC/
+BSC/EvHandlClient/EvHandlClient_cxc/bin/.debug/evhandlclient_dbg
+BSC/EvHandlClient/EvHandlClient_cxc/bin/evhandlclient
+BSC/EvHandlClient/EvHandlClient_cxc/doc/
+
+BSC/EvHandlClient/EvHandlClientcmd_caa/obj/evhandl_client.d

@@ -1,0 +1,4 @@
+[submodule "common"]
+	path = common
+	url = ssh://gerrit.ericsson.se:29418/APG43L/common
+	branch = apg43l_dev
